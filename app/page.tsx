@@ -4,7 +4,19 @@ import { Projects } from '@/app/components/projects'
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+      <Image
+        src="/profile.jpg"
+        alt="Alan Liu"
+        width={576}
+        height={144}
+        className="aspect-[4/1] w-full rounded-2xl overflow-hidden bg-[#e8ebe8] object-cover"
+        style={{
+          backgroundPosition: 'center',
+          boxShadow: '0 20px 40px -12px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.06)',
+        }}
+      />
+
+      <h1 className="mb-8 text-2xl font-semibold tracking-tighter pt-8">
         hi, i'm alan liu
         <br />
         劉兆林
