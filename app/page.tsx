@@ -29,9 +29,10 @@ export default function Page() {
       </p>
       <div className="my-8">
       </div>
-
-
       <Projects />
+      <div className="pb-20">
+
+      </div>
     </section>
 
     
